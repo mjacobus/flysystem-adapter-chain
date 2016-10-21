@@ -72,4 +72,26 @@ class ChainTest extends PHPUnit_Framework_TestCase
 
         $this->assertFalse($return);
     }
+
+    /**
+     * @test
+     */
+    public function hasReturnFalseWhenEitherReturnFalse()
+    {
+        $this->adapter1->has('foo')->willReturn(false);
+        $this->adapter2->has('foo')->willReturn(true);
+
+        $this->assertFalse($this->chain->has('foo'));
+    }
+
+    /**
+     * @test
+     */
+    public function hasReturnsTrueIfAllAreTrue()
+    {
+        $this->adapter1->has('foo')->willReturn(true);
+        $this->adapter2->has('foo')->willReturn(true);
+
+        $this->assertTrue($this->chain->has('foo'));
+    }
 }

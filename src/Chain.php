@@ -87,7 +87,13 @@ class Chain implements AdapterInterface
 
     public function has($path)
     {
-        throw new \RuntimeException(sprintf('"%s" not implemented', __METHOD__));
+        $results = [];
+
+        foreach ($this->adapters as $adapter) {
+            $results[] = $adapter->has($path);
+        }
+
+        return array_unique($results) === [true];
     }
 
     public function read($path)
