@@ -33,7 +33,7 @@ use Brofist\Flysystem\Adapter\Chain;
 $chain = new Chain([$localAdapter]);
 $chain->append($ftpAdapter);
 
-$filesystem = new Flysystem($chain);
+$filesystem = new Filesystem($chain);
 $filesystem->write('path', 'contents'); // will write locally and to the ftp
 ```
 
