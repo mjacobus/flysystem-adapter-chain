@@ -14,11 +14,11 @@ Code information:
 
 Package information:
 
-[![Latest Stable Version](https://poser.pugx.org/brofist/filesystem-adapter-chain/v/stable.svg)](https://packagist.org/packages/brofist/filesystem-adapter-chain)
-[![Total Downloads](https://poser.pugx.org/brofist/filesystem-adapter-chain/downloads.svg)](https://packagist.org/packages/brofist/filesystem-adapter-chain)
-[![Latest Unstable Version](https://poser.pugx.org/brofist/filesystem-adapter-chain/v/unstable.svg)](https://packagist.org/packages/brofist/filesystem-adapter-chain)
-[![License](https://poser.pugx.org/brofist/filesystem-adapter-chain/license.svg)](https://packagist.org/packages/brofist/filesystem-adapter-chain)
-[![Dependency Status](https://gemnasium.com/brofist/filesystem-adapter-chain.png)](https://gemnasium.com/brofist/filesystem-adapter-chain)
+[![Latest Stable Version](https://poser.pugx.org/brofist/flysystem-adapter-chain/v/stable.svg)](https://packagist.org/packages/brofist/flysystem-adapter-chain)
+[![Total Downloads](https://poser.pugx.org/brofist/flysystem-adapter-chain/downloads.svg)](https://packagist.org/packages/brofist/flysystem-adapter-chain)
+[![Latest Unstable Version](https://poser.pugx.org/brofist/flysystem-adapter-chain/v/unstable.svg)](https://packagist.org/packages/brofist/flysystem-adapter-chain)
+[![License](https://poser.pugx.org/brofist/flysystem-adapter-chain/license.svg)](https://packagist.org/packages/brofist/flysystem-adapter-chain)
+[![Dependency Status](https://gemnasium.com/brofist/flysystem-adapter-chain.png)](https://gemnasium.com/brofist/flysystem-adapter-chain)
 
 
 ## Usage
