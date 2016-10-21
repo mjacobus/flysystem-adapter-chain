@@ -34,6 +34,7 @@ class Chain implements AdapterInterface
         $results = [];
 
         foreach ($this->adapters as $adapter) {
+            /** @var AdapterInterface $adapter */
             $results[] = $adapter->write($path, $contents, $config);
         }
 
