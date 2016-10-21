@@ -5,6 +5,9 @@ namespace Brofist\Flysystem\Adapter;
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Config;
 
+/**
+ * @SuppressWarnings(PHPMD.TooManyPublicMethods)
+ */
 class Chain implements AdapterInterface
 {
     /**
@@ -41,7 +44,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function writeStream($path, $resource, Config $config)
     {
@@ -49,7 +52,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function update($path, $contents, Config $config)
     {
@@ -57,7 +60,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function updateStream($path, $resource, Config $config)
     {
@@ -65,7 +68,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function rename($path, $newpath)
     {
@@ -73,7 +76,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function copy($path, $newpath)
     {
@@ -81,7 +84,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function delete($path)
     {
@@ -89,7 +92,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function deleteDir($dirname)
     {
@@ -97,7 +100,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function createDir($dirname, Config $config)
     {
@@ -105,7 +108,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function setVisibility($path, $visibility)
     {
@@ -124,7 +127,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function read($path)
     {
@@ -132,7 +135,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function readStream($path)
     {
@@ -140,7 +143,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function listContents($directory = '', $recursive = false)
     {
@@ -148,7 +151,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function getMetadata($path)
     {
@@ -156,7 +159,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function getSize($path)
     {
@@ -164,7 +167,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function getMimetype($path)
     {
@@ -172,7 +175,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function getTimestamp($path)
     {
@@ -180,7 +183,7 @@ class Chain implements AdapterInterface
     }
 
     /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     * @SuppressWarnings(PHPMD)
      */
     public function getVisibility($path)
     {
